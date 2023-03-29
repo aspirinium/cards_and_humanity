@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/cards_and_humanity/static/css/main.4072645c.css",
+    "main.js": "/cards_and_humanity/static/js/main.e33e9a1e.js",
+    "static/js/787.8b1fe994.chunk.js": "/cards_and_humanity/static/js/787.8b1fe994.chunk.js",
+    "static/media/sorryBro_card.png": "/cards_and_humanity/static/media/sorryBro_card.30d354e95364dc3d6992.png",
+    "static/media/bat_card.png": "/cards_and_humanity/static/media/bat_card.9f98312f684c3a03c96e.png",
+    "static/media/frog_card.png": "/cards_and_humanity/static/media/frog_card.48320d99ea925b66720a.png",
+    "static/media/jellyfish_card.png": "/cards_and_humanity/static/media/jellyfish_card.6261789bad857b7257af.png",
+    "static/media/kangaroo_card.png": "/cards_and_humanity/static/media/kangaroo_card.7a2c68c7cd60551d9906.png",
+    "static/media/cockatoo_card.png": "/cards_and_humanity/static/media/cockatoo_card.6f58fb480be627d97ae9.png",
+    "static/media/koala_card.png": "/cards_and_humanity/static/media/koala_card.56f21e3cbc3ac57870cb.png",
+    "static/media/spider_card.png": "/cards_and_humanity/static/media/spider_card.6a8686c8d798d5cb1ac1.png",
+    "index.html": "/cards_and_humanity/index.html",
+    "main.4072645c.css.map": "/cards_and_humanity/static/css/main.4072645c.css.map",
+    "main.e33e9a1e.js.map": "/cards_and_humanity/static/js/main.e33e9a1e.js.map",
+    "787.8b1fe994.chunk.js.map": "/cards_and_humanity/static/js/787.8b1fe994.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4072645c.css",
+    "static/js/main.e33e9a1e.js"
+  ]
+}
