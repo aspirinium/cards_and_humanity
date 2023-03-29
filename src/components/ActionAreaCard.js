@@ -7,14 +7,11 @@ import {Button, CardActionArea, CardActions} from '@mui/material';
 import FormDialog from "./FormDialog";
 import { CSSTransition } from 'react-transition-group';
 import '../App.css';
+import {useEffect} from "react";
 
 function ActionAreaCard({item, zIndex, action, isVisible}) {
     return (
-        <div><CSSTransition
-            in={isVisible}
-            timeout={200}
-            classNames='transition'
-        ><CardActionArea onClick={action} sx={{ zIndex: zIndex, position: "absolute", width: 365, height: 650, borderRadius: 10, border: 4, borderColor: "lightseagreen", backgroundColor: "floralwhite"}}>
+        <div><CardActionArea onClick={action} sx={{ zIndex: zIndex, position: "absolute", width: 365, height: 650, borderRadius: 10, border: 4, borderColor: "lightseagreen", backgroundColor: "floralwhite"}}>
                 <CardMedia
                     component="img"
                     height="345"
@@ -28,7 +25,7 @@ function ActionAreaCard({item, zIndex, action, isVisible}) {
                         {item[0]}
                     </Typography>
                 </CardContent>
-            </CardActionArea></CSSTransition>
+            </CardActionArea>
         </div>
     );
 }

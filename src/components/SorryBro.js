@@ -12,6 +12,10 @@ function SorryBro({item, action, startAgain}) {
     const handleClickOpen = () => {
         setShowPopup(true);
     };
+    const _refreshPage = () => {
+        console.log("Clicked")
+        window.location.reload()
+    }
     return (
         <Card sx={{ width: 365, height: 650, borderRadius: 10, border: 4, borderColor: "lightseagreen", backgroundColor: "floralwhite"}} onClick={action}>
                 <CardMedia
@@ -25,12 +29,12 @@ function SorryBro({item, action, startAgain}) {
                         Finito
                     </Typography>
                     <Typography variant="body1" color="text.secondary">
-                        Sorry bro, you outplayed me at my own game and I don't have any more questions for you. However, if you have any suggestions and think you can help to improve the game, feel free to hit me up.
+                        My dear fellow, you've bested me at my own charade, leaving me utterly questionless! But fret not, if your wisdom holds the key to enhancing this delightful diversion, I graciously invite you to share your sagacious insights with yours truly.
                     </Typography>
                 </CardContent>
             <div>
                 <Button size="small" onClick={handleClickOpen} sx={{marginRight: 5}}>Give feedback</Button>
-                <Button size="small" color="secondary" onClick={startAgain}>Start again</Button>
+                <Button size="small" color="secondary" onClick={_refreshPage}>Start again</Button>
                 <FormDialog showPopup={showPopup} setShowpopup={setShowPopup}></FormDialog>
             </div>
         </Card>
