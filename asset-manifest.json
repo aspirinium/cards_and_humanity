@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cards_and_humanity/static/css/main.e1b229f3.css",
-    "main.js": "/cards_and_humanity/static/js/main.79381e45.js",
+    "main.js": "/cards_and_humanity/static/js/main.d5690890.js",
     "static/js/787.8b1fe994.chunk.js": "/cards_and_humanity/static/js/787.8b1fe994.chunk.js",
     "static/media/sorryBro_card.png": "/cards_and_humanity/static/media/sorryBro_card.30d354e95364dc3d6992.png",
     "static/media/bat_card.png": "/cards_and_humanity/static/media/bat_card.9f98312f684c3a03c96e.png",
@@ -13,11 +13,11 @@
     "static/media/spider_card.png": "/cards_and_humanity/static/media/spider_card.6a8686c8d798d5cb1ac1.png",
     "index.html": "/cards_and_humanity/index.html",
     "main.e1b229f3.css.map": "/cards_and_humanity/static/css/main.e1b229f3.css.map",
-    "main.79381e45.js.map": "/cards_and_humanity/static/js/main.79381e45.js.map",
+    "main.d5690890.js.map": "/cards_and_humanity/static/js/main.d5690890.js.map",
     "787.8b1fe994.chunk.js.map": "/cards_and_humanity/static/js/787.8b1fe994.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e1b229f3.css",
-    "static/js/main.79381e45.js"
+    "static/js/main.d5690890.js"
   ]
 }
